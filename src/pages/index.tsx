@@ -4,6 +4,7 @@ import type { GetServerSideProps, InferGetServerSidePropsType } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import axios from 'axios';
 import Head from 'next/head';
+import Script from 'next/script';
 
 import {
   About,
@@ -34,7 +35,38 @@ const Homepage = ({ repositories }: InferGetServerSidePropsType<typeof getServer
         <title>Mauricio Boaventura</title>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <meta property='og:title' content='Mauricio Boaventura' key='title' />
+        <meta
+          name='description'
+          content='Portfólio profissional de Maurício, desenvolvedor frontend especializado em React e Next.js.'
+        />
+
+        {/* Open Graph / WhatsApp / Facebook */}
+        <meta property='og:title' content='Mauricio | Desenvolvedor Frontend' />
+        <meta
+          property='og:description'
+          content='Portfólio profissional de Mauricio, com projetos e contatos.'
+        />
+        <meta property='og:image' content='https://portfolio.mauboa.com.br/images/eu.png' />
+        <meta property='og:url' content='https://portfolio.mauboa.com.br/' />
+        <meta property='og:type' content='website' />
       </Head>
+
+      <Script
+        id='google-analytics'
+        strategy='afterInteractive'
+        dangerouslySetInnerHTML={{
+          __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-PV1LQRFMJQ');
+            `,
+        }}
+      />
+      <Script
+        src='https://www.googletagmanager.com/gtag/js?id=G-PV1LQRFMJQ'
+        strategy='afterInteractive'
+      />
       <Header />
       <main>
         <Background />
