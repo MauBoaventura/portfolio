@@ -46,7 +46,10 @@ const Homepage = ({ repositories }: InferGetServerSidePropsType<typeof getServer
           property='og:description'
           content='Portfólio profissional de Mauricio, com projetos e contatos.'
         />
-        <meta property='og:image' content='https://portfolio.mauboa.com.br/images/eu.png' />
+        <meta
+          property='og:image'
+          content='https://portfolio.mauboa.com.br/images/eu_thumb.png'
+        />
         <meta property='og:url' content='https://portfolio.mauboa.com.br/' />
         <meta property='og:type' content='website' />
       </Head>
