@@ -37,11 +37,11 @@ const Homepage = ({ repositories }: InferGetServerSidePropsType<typeof getServer
         <meta property='og:title' content='Mauricio Boaventura' key='title' />
         <meta
           name='description'
-          content='Portfólio profissional de Maurício, desenvolvedor frontend especializado em React e Next.js.'
+          content='Portfólio profissional de Maurício, desenvolvedor fullstack com foco em frontend especializado em React e Next.js.'
         />
 
         {/* Open Graph / WhatsApp / Facebook */}
-        <meta property='og:title' content='Mauricio | Desenvolvedor Frontend' />
+        <meta property='og:title' content='Mauricio | Desenvolvedor Fullstack' />
         <meta
           property='og:description'
           content='Portfólio profissional de Mauricio, com projetos e contatos.'
