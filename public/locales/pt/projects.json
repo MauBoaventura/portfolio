@@ -1,0 +1,23 @@
+{
+  "title": "Projetos",
+    "list": {
+    "adrenalina-a-bordo": {
+      "description": "Implementação de gráfico de evolução altamente personalizável, animado e responsivo. O pacote é usado para criar visualizações de dados flexíveis e apresentar relações de evolução entre entidades."
+    },
+    "basic_deploy_digitalocean": {
+      "description": "Um script de implantação simples e fácil de usar para aplicações Node.js no Digital Ocean. Ele utiliza Docker e Nginx para criar um ambiente pronto para produção."
+    },
+    "bot-whats-agenda": {
+      "description": "Um bot do WhatsApp que ajuda você a gerenciar suas tarefas e agenda. Ele utiliza a API Web do WhatsApp para enviar e receber mensagens, e se integra ao Google Agenda para gerenciar seus eventos."
+    },
+    "ConvertaX": {
+      "description": "Uma aplicação web construída com Next.js, Tailwind CSS e Shadcn para simular e gerenciar diferentes tipos de investimentos. Inclui recursos como configurações de depósitos mensais, acompanhamento de investimentos, painéis interativos e gráficos dinâmicos."
+    },
+    "agendador-de-requisicoes": {
+      "description": "Uma aplicação Node.js simples e fácil de usar que permite agendar requisições HTTP. Utiliza um arquivo de configuração JSON simples para definir as requisições e seus agendamentos."
+    },
+    "adrenalina-a-bordo-react": {
+      "description": "Implementação de gráfico de evolução altamente personalizável, animado e responsivo. O pacote é usado para criar visualizações de dados flexíveis e apresentar relações de evolução entre entidades."
+    }
+  }
+}

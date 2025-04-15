@@ -1,0 +1,21 @@
+{
+  "title": "Experience",
+  "list": {
+    "pege": {
+      "description-1": "Sistema completo de gestão escolar que integra matrículas, frequência, notas, comunicação entre professores/alunos e geração de relatórios acadêmicos, otimizando os processos administrativos de instituições de ensino.",
+      "description-2": "Liderança da equipe de desenvolvimento do sistema PEGE desde sua concepção, com arquitetura do front-end utilizando React.js e implementação de features críticas como geração de boletins e integração com sistemas de pagamento."
+    },
+    "controle-de-vendas": {
+      "description-1": "Sistema de gestão comercial desenvolvido para uma distribuidora de frango do Piauí, integrando controle de pedidos, logística de distribuição, faturamento e acompanhamento de métricas de vendas por região.",
+      "description-2": "Desenvolvimento do módulo front-end com React, criando dashboards interativos para análise de desempenho de vendas e implementação de fluxos otimizados para o time comercial."
+    },
+    "ana-paula-carvalho": {
+      "description-1": "Marketplace premium de cosméticos que conecta marcas independentes a consumidores finais, com curadoria de produtos, avaliações autenticadas e ferramentas de realidade aumentada para teste virtual de maquiagem.",
+      "description-2": "Desenvolvimento do front-end principal com React.js, incluindo o sistema de recomendações personalizadas baseado em machine learning e integração com APIs de pagamento e logística especializada para produtos de beleza."
+    },
+    "foxgreen": {
+      "description-1": "Plataforma especializada em captação e gestão de leads para o setor de e-commerce esportivo e apostas, com segmentação por perfil de consumo, odds preferidas e histórico de apostas.",
+      "description-2": "Arquitetura do sistema de scoring de leads utilizando Node.js, desenvolvendo algoritmos para priorização de clientes potenciais baseados em seu comportamento de navegação e histórico de transações esportivas."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Projects",
+  "list": {
+    "adrenalina-a-bordo": {
+      "description": "Highly customizable, animated and responsive evolution graph implementation. The package is used to create flexible data visualizations and present evolution relationships between entities."
+    },
+    "basic_deploy_digitalocean": {
+      "description": "A simple and easy to use Digital Ocean deployment script for Node.js applications. It uses Docker and Nginx to create a production-ready environment."
+    },
+    "bot-whats-agenda": {
+      "description": "A WhatsApp bot that helps you manage your tasks and schedule. It uses the WhatsApp Web API to send and receive messages, and it integrates with Google Calendar to manage your events."
+    },
+    "ConvertaX": {
+      "description": "A web application built with Next.js, Tailwind CSS, and Shadcn to simulate and manage different types of investments. It includes features like monthly deposit configurations, investment tracking, interactive dashboards, and dynamic charts."
+    },
+    "agendador-de-requisicoes": {
+      "description": "A simple and easy to use Node.js application that allows you to schedule HTTP requests. It uses a simple JSON configuration file to define the requests and their schedules."
+    },
+    "adrenalina-a-bordo-react": {
+      "description": "Highly customizable, animated and responsive evolution graph implementation. The package is used to create flexible data visualizations and present evolution relationships between entities."
+    }
+  }
+}
