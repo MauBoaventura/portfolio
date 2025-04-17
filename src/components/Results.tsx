@@ -10,16 +10,15 @@ import {
 } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import { Fade } from 'react-awesome-reveal';
-import { RiExternalLinkLine } from 'react-icons/ri';
-import { experience } from 'src/constants';
+import { results } from 'src/constants';
 import SectionHeader from './SectionHeader';
 
-const Experience = () => {
-  const { t } = useTranslation('experience');
+const Results = () => {
+  const { t } = useTranslation('results');
   const { colorMode } = useColorMode();
 
   return (
-    <Flex id='experience' fontFamily='Roboto Mono'>
+    <Flex id='results' fontFamily='Roboto Mono'>
       <Container
         w='full'
         maxW='container.xl'
@@ -36,7 +35,7 @@ const Experience = () => {
           </Flex>
           <Flex gap={6} direction='column'>
             <Fade cascade triggerOnce duration={200}>
-              {experience.map((item) => (
+              {results.map((item) => (
                 <Flex
                   as='a'
                   href={item.url}
@@ -69,7 +68,7 @@ const Experience = () => {
                   >
                     <Image
                       alt={`${item.name} logo`}
-                      src={colorMode === 'dark' ? item.logo_dark : item.logo_light}
+                      src={item.logo}
                       h='100%'
                       w='100%'
                       objectFit='contain'
@@ -116,4 +115,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Results;

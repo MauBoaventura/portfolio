@@ -16,7 +16,20 @@ type Repository = {
 type Job = {
   key: string;
   name: string;
+  logo_dark: string;
+  logo_light: string;
+  date_start: string;
+  date_end: string;
+  url: string;
+  tags: string[];
+};
+
+type Results = {
+  key: string;
+  name: string;
   logo: string;
+  logo_dark?: string;
+  logo_light?: string;
   url: string;
   tags: string[];
 };

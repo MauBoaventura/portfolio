@@ -14,6 +14,7 @@ import {
   Header,
   Hero,
   Experience,
+  Results,
   Projects,
   RooStoreProvider,
 } from '@/components';
@@ -76,6 +77,7 @@ const Homepage = ({ repositories }: InferGetServerSidePropsType<typeof getServer
         <Hero />
         <About />
         <Experience />
+        <Results />
         {!!repositories.length && <Projects projects={repositories} />}
         <Contact />
       </main>
@@ -91,6 +93,7 @@ export const getServerSideProps: GetServerSideProps<HomeProps> = async ({ locale
     'hero',
     'about',
     'experience',
+    'results',
     'projects',
     'contact',
     'footer',

@@ -1,0 +1,21 @@
+{
+  "title": "Resultados",
+  "list": {
+    "pege": {
+      "description-1": "Complete school management system that integrates enrollment, attendance, grades, communication between teachers/students, and generation of academic reports, optimizing the administrative processes of educational institutions.",
+      "description-2": "Leadership of the development team for the PEGE system since its inception, with front-end architecture using React.js and implementation of critical features such as report card generation and integration with payment systems."
+    },
+    "controle-de-vendas": {
+      "description-1": "Commercial management system developed for a chicken distributor in Piauí, integrating order control, distribution logistics, billing, and monitoring of sales metrics by region.",
+      "description-2": "Development of the front-end module with React, creating interactive dashboards for sales performance analysis and implementing optimized workflows for the commercial team."
+    },
+    "ana-paula-carvalho": {
+      "description-1": "Premium cosmetics marketplace that connects independent brands to end consumers, with product curation, authenticated reviews, and augmented reality tools for virtual makeup testing.",
+      "description-2": "Development of the main front-end with React.js, including the personalized recommendation system based on machine learning and integration with payment APIs and specialized logistics for beauty products."
+    },
+    "foxgreen": {
+      "description-1": "Platform specialized in lead acquisition and management for the sports e-commerce and betting sector, with segmentation by consumption profile, preferred odds, and betting history.",
+      "description-2": "Architecture of the lead scoring system using Node.js, developing algorithms for prioritizing potential customers based on their browsing behavior and sports transaction history."
+    }
+  }
+}
