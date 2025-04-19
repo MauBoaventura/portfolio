@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-type Message = { message: String };
+type Message = { message: String; envs?: string };
 
 type Data = Repository[] | Message;
 
@@ -39,6 +39,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     );
     res.status(200).json(sortedRepositories);
   } catch (error) {
-    res.status(500).json({ message: 'Server ERROR' });
+    res
+      .status(500)
+      .json({ message: 'Server ERROR: ' + error, envs: process.env.NEXT_PUBLIC_BASE_URL });
   }
 }
