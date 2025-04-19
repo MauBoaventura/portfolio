@@ -1,33 +1,22 @@
 {
   "title": "Experiência",
+  "to": "a",
+  "present": "atual",
   "list": {
-    "rokkos": {
-      "description-1": "Marketplace para fotógrafos onde eles exibem, vendem e entregam suas fotos durantes eventos. A plataforma também utiliza reconhecimento facial para ajudar clientes a encontrar fotos nas quais estão presentes.",
-      "description-2": "Liderei o time que criou a Rokkos do zero, construí todo o front-end e auxilei os designers a desenvolverem diversas funcionalidades com o intuito de melhorar a expereiência do usuário."
+    "infatec": {
+      "description": "Atualmente atuo como Desenvolvedor Full Stack e Responsável Técnico na INFATEC. Trabalho no desenvolvimento de projetos frontend e backend utilizando tecnologias como Next.js e NestJS, além de realizar manutenção e melhorias em sistemas legados desenvolvidos em PHP. Participo ativamente na definição de arquitetura, boas práticas e evolução técnica dos projetos da empresa."
     },
-    "tag": {
-      "description-1": "A Transportadora Associada de Gás S.A. (TAG) atua no segmento de transporte de gás natural por meio de gasodutos. A TAG é proprietária e gestora de importante parcela dos ativos de transporte de gás natural do país, distribuídos entre as regiões Norte, Nordeste e Sudeste,",
-      "description-2": "Desenvolvi o front-end do site institucional da TAG levando em conta as melhores prática de SEO e seguindo o style guide da Engie."
+    "freelancer": {
+      "description": "Atuação como Desenvolvedor Frontend freelancer em modelo remoto, colaborando com duas empresas em projetos distintos. Responsável pela construção de interfaces modernas, responsivas e acessíveis, com foco em performance, usabilidade e experiência do usuário. Utilização de stacks modernas baseadas em React, Tailwind CSS, TypeScript e integrações com APIs."
     },
-    "turno-inverso": {
-      "description-1": "Turno Inverso é um app que conecta alunos com professores de esporte, cultura e idiomas em um ambiente seguro e descomplicado.",
-      "description-2": "Liderei o time que criou a aplicação e construí boa parte do front-end."
+    "maida": {
+      "description": "Desenvolvedor Frontend Pleno na Maida Health, contribuindo para o desenvolvimento de produtos digitais na área da saúde. Responsável pela implementação de interfaces web em projetos escaláveis, integração com APIs REST e GraphQL, e aplicação de boas práticas de acessibilidade, testes e versionamento de código em ambiente colaborativo ágil."
     },
-    "lets-hike": {
-      "description-1": "Let's Hike é um aplicativo mobile que oferece informações sobre o ambiente natural de Florianópolis e região, ajudando os usuários a encontrar suporte e a percorrer as trilhas de maneira segura.",
-      "description-2": "Eu fiz parte do time que construiu o aplicativo Let's Hike e auxiliei em melhorias na usabilidade."
+    "w16": {
+      "description": "Primeira experiência como desenvolvedor, atuando na W16 com foco na criação de soluções digitais para o setor automotivo. Desenvolvimento de funcionalidades, manutenção de sistemas internos e integração de serviços em ambiente web."
     },
-    "unne": {
-      "description-1": "Plataforma utilizada para análise e gerenciamento de estratégias para crescimento de pequenos e médios negócios.",
-      "description-2": "Desenvolvi o front-end da aplicação e ajudei na criação de diversas funcionalidades durante este processo."
-    },
-    "we-play": {
-      "description-1": "Plataforma que permite que professores e arenas de esportes gerenciem aulas em tempo real.",
-      "description-2": "Fiz parte do time que criou e desenvolveu o We Play."
-    },
-    "plastubos": {
-      "description-1": "Fabricante de tubos e conexões hidráulicas presente no mercado brasileiro há mais de 20 anos.",
-      "description-2": "Fiz parte do time que desenvolveu o site institucional da Plastubos e construí grande parte do front-end."
+    "jap": {
+      "description": "Assistente de TI na JAP, com atuação voltada à infraestrutura e suporte. Responsável pela manutenção de servidores, redes locais, sistemas internos e atendimento técnico aos colaboradores da empresa."
     }
   }
 }

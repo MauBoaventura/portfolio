@@ -10,16 +10,15 @@ import {
 } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import { Fade } from 'react-awesome-reveal';
-import { RiExternalLinkLine } from 'react-icons/ri';
-import { experience } from 'src/constants';
+import { results } from 'src/constants';
 import SectionHeader from './SectionHeader';
 
-const Experience = () => {
-  const { t } = useTranslation('experience');
+const Results = () => {
+  const { t } = useTranslation('results');
   const { colorMode } = useColorMode();
 
   return (
-    <Flex id='experience' fontFamily='Roboto Mono'>
+    <Flex id='results' fontFamily='Roboto Mono'>
       <Container
         w='full'
         maxW='container.xl'
@@ -36,8 +35,11 @@ const Experience = () => {
           </Flex>
           <Flex gap={6} direction='column'>
             <Fade cascade triggerOnce duration={200}>
-              {experience.map((item) => (
+              {results.map((item) => (
                 <Flex
+                  as='a'
+                  href={item.url}
+                  target='_blank'
                   key={item.key}
                   direction={{ base: 'column', md: 'row' }}
                   py={{ base: 12, md: 8 }}
@@ -66,7 +68,7 @@ const Experience = () => {
                   >
                     <Image
                       alt={`${item.name} logo`}
-                      src={colorMode === 'dark' ? item.logo_dark : item.logo_light}
+                      src={item.logo}
                       h='100%'
                       w='100%'
                       objectFit='contain'
@@ -74,6 +76,7 @@ const Experience = () => {
                   </Flex>
                   <Flex direction='column' w='full'>
                     <Text
+                      mb={6}
                       fontSize='xl'
                       fontWeight='bold'
                       transition='0.2s'
@@ -81,26 +84,14 @@ const Experience = () => {
                     >
                       {item.name}
                     </Text>
+                    <Text mb={2}>{t(`list.${item.key}.description-1`)}</Text>
                     <Text
-                      mb={4}
-                      fontSize='smaller'
-                      fontWeight='bold'
+                      mb={6}
                       transition='0.2s'
                       _groupHover={{ color: colorMode === 'dark' ? 'teal.500' : 'blue.500' }}
                     >
-                      {new Date(item.date_start).toLocaleDateString('default', {
-                        month: 'numeric',
-                        year: 'numeric',
-                      })}{' '}
-                      {t('to')}{' '}
-                      {item.date_end
-                        ? new Date(item.date_end).toLocaleDateString('default', {
-                            month: 'numeric',
-                            year: 'numeric',
-                          })
-                        : t('present')}
+                      {t(`list.${item.key}.description-2`)}
                     </Text>
-                    <Text mb={2}>{t(`list.${item.key}.description`)}</Text>
                     <Flex gap={2} wrap='wrap'>
                       {item.tags.map((tag) => (
                         <Tag
@@ -124,4 +115,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Results;

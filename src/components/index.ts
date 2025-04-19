@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Hero from './Hero';
 import Experience from './Experience';
+import Results from './Results';
 import Menu from './Menu';
 import Projects from './Projects';
 import RooStoreProvider from './RootStoreProvider';
@@ -21,6 +22,7 @@ export {
   Header,
   Hero,
   Experience,
+  Results,
   Menu,
   Projects,
   RooStoreProvider,
