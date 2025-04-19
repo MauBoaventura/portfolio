@@ -1,21 +1,22 @@
 {
   "title": "Experiência",
+  "to": "a",
+  "present": "atual",
   "list": {
-    "pege": {
-      "description-1": "Sistema completo de gestão escolar que integra matrículas, frequência, notas, comunicação entre professores/alunos e geração de relatórios acadêmicos, otimizando os processos administrativos de instituições de ensino.",
-      "description-2": "Liderança da equipe de desenvolvimento do sistema PEGE desde sua concepção, com arquitetura do front-end utilizando React.js e implementação de features críticas como geração de boletins e integração com sistemas de pagamento."
+    "infatec": {
+      "description": "Atualmente atuo como Desenvolvedor Full Stack e Responsável Técnico na INFATEC. Trabalho no desenvolvimento de projetos frontend e backend utilizando tecnologias como Next.js e NestJS, além de realizar manutenção e melhorias em sistemas legados desenvolvidos em PHP. Participo ativamente na definição de arquitetura, boas práticas e evolução técnica dos projetos da empresa."
     },
-    "controle-de-vendas": {
-      "description-1": "Sistema de gestão comercial desenvolvido para uma distribuidora de frango do Piauí, integrando controle de pedidos, logística de distribuição, faturamento e acompanhamento de métricas de vendas por região.",
-      "description-2": "Desenvolvimento do módulo front-end com React, criando dashboards interativos para análise de desempenho de vendas e implementação de fluxos otimizados para o time comercial."
+    "freelancer": {
+      "description": "Atuação como Desenvolvedor Frontend freelancer em modelo remoto, colaborando com duas empresas em projetos distintos. Responsável pela construção de interfaces modernas, responsivas e acessíveis, com foco em performance, usabilidade e experiência do usuário. Utilização de stacks modernas baseadas em React, Tailwind CSS, TypeScript e integrações com APIs."
     },
-    "ana-paula-carvalho": {
-      "description-1": "Marketplace premium de cosméticos que conecta marcas independentes a consumidores finais, com curadoria de produtos, avaliações autenticadas e ferramentas de realidade aumentada para teste virtual de maquiagem.",
-      "description-2": "Desenvolvimento do front-end principal com React.js, incluindo o sistema de recomendações personalizadas baseado em machine learning e integração com APIs de pagamento e logística especializada para produtos de beleza."
+    "maida": {
+      "description": "Desenvolvedor Frontend Pleno na Maida Health, contribuindo para o desenvolvimento de produtos digitais na área da saúde. Responsável pela implementação de interfaces web em projetos escaláveis, integração com APIs REST e GraphQL, e aplicação de boas práticas de acessibilidade, testes e versionamento de código em ambiente colaborativo ágil."
     },
-    "foxgreen": {
-      "description-1": "Plataforma especializada em captação e gestão de leads para o setor de e-commerce esportivo e apostas, com segmentação por perfil de consumo, odds preferidas e histórico de apostas.",
-      "description-2": "Arquitetura do sistema de scoring de leads utilizando Node.js, desenvolvendo algoritmos para priorização de clientes potenciais baseados em seu comportamento de navegação e histórico de transações esportivas."
+    "w16": {
+      "description": "Primeira experiência como desenvolvedor, atuando na W16 com foco na criação de soluções digitais para o setor automotivo. Desenvolvimento de funcionalidades, manutenção de sistemas internos e integração de serviços em ambiente web."
+    },
+    "jap": {
+      "description": "Assistente de TI na JAP, com atuação voltada à infraestrutura e suporte. Responsável pela manutenção de servidores, redes locais, sistemas internos e atendimento técnico aos colaboradores da empresa."
     }
   }
 }

@@ -20,7 +20,6 @@ type Job = {
   logo_light: string;
   date_start: string;
   date_end: string;
-  url: string;
   tags: string[];
 };
 

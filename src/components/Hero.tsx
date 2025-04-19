@@ -1,8 +1,9 @@
-import { Container, Flex, Text, useColorMode } from '@chakra-ui/react';
+import { Container, Flex, Icon, IconButton, Text, useColorMode } from '@chakra-ui/react';
 import { observer } from 'mobx-react';
 import { useTranslation } from 'next-i18next';
 import { useEffect, useRef } from 'react';
 import { Fade } from 'react-awesome-reveal';
+import { RiGithubLine, RiLinkedinLine } from 'react-icons/ri';
 import { useStore } from 'src/hooks';
 
 const Hero = () => {
@@ -122,6 +123,28 @@ const Hero = () => {
                 {t('company')}.
               </Text>
             </Text>
+            <Flex align='center' gap={4} mt={6}>
+              <IconButton
+                as='a'
+                aria-label='Github'
+                variant='ghost'
+                color={colorMode === 'dark' ? 'teal.500' : 'blue.500'}
+                href='https://github.com/MauBoaventura/'
+                target='_blank'
+              >
+                <Icon as={RiGithubLine} fontSize='1.5rem' />
+              </IconButton>
+              <IconButton
+                as='a'
+                aria-label='LinkedIn'
+                variant='ghost'
+                color={colorMode === 'dark' ? 'teal.500' : 'blue.500'}
+                href='https://www.linkedin.com/in/mauboa/'
+                target='_blank'
+              >
+                <Icon as={RiLinkedinLine} fontSize='1.5rem' />
+              </IconButton>
+            </Flex>
           </Fade>
         </Flex>
       </Container>

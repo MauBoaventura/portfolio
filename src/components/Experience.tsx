@@ -38,9 +38,6 @@ const Experience = () => {
             <Fade cascade triggerOnce duration={200}>
               {experience.map((item) => (
                 <Flex
-                  as='a'
-                  href={item.url}
-                  target='_blank'
                   key={item.key}
                   direction={{ base: 'column', md: 'row' }}
                   py={{ base: 12, md: 8 }}
@@ -77,7 +74,6 @@ const Experience = () => {
                   </Flex>
                   <Flex direction='column' w='full'>
                     <Text
-                      mb={6}
                       fontSize='xl'
                       fontWeight='bold'
                       transition='0.2s'
@@ -85,14 +81,26 @@ const Experience = () => {
                     >
                       {item.name}
                     </Text>
-                    <Text mb={2}>{t(`list.${item.key}.description-1`)}</Text>
                     <Text
-                      mb={6}
+                      mb={4}
+                      fontSize='smaller'
+                      fontWeight='bold'
                       transition='0.2s'
                       _groupHover={{ color: colorMode === 'dark' ? 'teal.500' : 'blue.500' }}
                     >
-                      {t(`list.${item.key}.description-2`)}
+                      {new Date(item.date_start).toLocaleDateString('default', {
+                        month: 'numeric',
+                        year: 'numeric',
+                      })}{' '}
+                      {t('to')}{' '}
+                      {item.date_end
+                        ? new Date(item.date_end).toLocaleDateString('default', {
+                            month: 'numeric',
+                            year: 'numeric',
+                          })
+                        : t('present')}
                     </Text>
+                    <Text mb={2}>{t(`list.${item.key}.description`)}</Text>
                     <Flex gap={2} wrap='wrap'>
                       {item.tags.map((tag) => (
                         <Tag

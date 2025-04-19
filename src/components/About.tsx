@@ -113,7 +113,29 @@ const About = () => {
                       color: colorMode === 'dark' ? 'teal.500' : 'blue.500',
                     }}
                   >
+                    PHP
+                  </Flex>
+                  <Flex
+                    as='li'
+                    gap={1}
+                    align='center'
+                    _before={{
+                      content: `"▹"`,
+                      color: colorMode === 'dark' ? 'teal.500' : 'blue.500',
+                    }}
+                  >
                     NestJS
+                  </Flex>
+                  <Flex
+                    as='li'
+                    gap={1}
+                    align='center'
+                    _before={{
+                      content: `"▹"`,
+                      color: colorMode === 'dark' ? 'teal.500' : 'blue.500',
+                    }}
+                  >
+                    SQL
                   </Flex>
                   <Flex
                     as='li'

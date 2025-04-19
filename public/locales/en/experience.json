@@ -1,20 +1,22 @@
 {
-  "title": "Jobs",
+  "title": "Experiences",
+  "to": "to",
+  "present": "present",
   "list": {
     "infatec": {
-      "description": "Complete school management system that integrates enrollment, attendance, grades, communication between teachers/students, and generation of academic reports, optimizing the administrative processes of educational institutions."
+      "description": "Currently working as a Full Stack Developer and Technical Lead at INFATEC. I work on the development of frontend and backend projects using technologies such as Next.js and NestJS, as well as performing maintenance and improvements on legacy systems developed in PHP. Actively participate in defining architecture, best practices, and technical evolution of the company's projects."
     },
-    "w16": {
-      "description": "Commercial management system developed for a chicken distributor in Piauí, integrating order control, distribution logistics, billing, and monitoring of sales metrics by region."
+    "freelancer": {
+      "description": "Working as a remote Frontend Developer freelancer, collaborating with two companies on distinct projects. Responsible for building modern, responsive, and accessible interfaces, focusing on performance, usability, and user experience. Using modern stacks based on React, Tailwind CSS, TypeScript, and API integrations."
     },
     "maida": {
-      "description": "Commercial management system developed for a chicken distributor in Piauí, integrating order control, distribution logistics, billing, and monitoring of sales metrics by region."
+      "description": "Mid-level Frontend Developer at Maida Health, contributing to the development of digital products in the healthcare sector. Responsible for implementing web interfaces in scalable projects, integrating with REST and GraphQL APIs, and applying best practices in accessibility, testing, and code versioning in an agile collaborative environment."
     },
-    "ana-paula-carvalho": {
-      "description": "Premium cosmetics marketplace that connects independent brands to end consumers, with product curation, authenticated reviews, and augmented reality tools for virtual makeup testing."
+    "w16": {
+      "description": "First experience as a developer, working at W16 with a focus on creating digital solutions for the automotive sector. Development of features, maintenance of internal systems, and integration of services in a web environment."
     },
-    "frellancer": {
-      "description": "Platform specialized in lead acquisition and management for the sports e-commerce and betting sector, with segmentation by consumption profile, preferred odds, and betting history."
+    "jap": {
+      "description": "IT Assistant at JAP, focusing on infrastructure and support. Responsible for maintaining servers, local networks, internal systems, and providing technical support to the company's employees."
     }
   }
 }
