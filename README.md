@@ -18,7 +18,7 @@
 <br />
 
 <h4 align="center">
-  Take a look at <a href="https://MauBoaventura.vercel.app/">my portfolio</a>!
+  Take a look at <a href="https://portfolio.mauboa.com.br">my portfolio</a>!
 </h4>
 
 <br />
@@ -36,32 +36,24 @@
   <a href="https://nextjs.org/">
     <img align="center" alt="Next.js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
   </a>
-
-  <a href="https://svelte.dev/">
-   <img align="center" alt="Svelte.js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" />
-  </a>
-
-  <a href="https://vuejs.org/">
-    <img align="center" alt="Vue.js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
-  </a>
-
-  <a href="https://www.electronjs.org/">
-    <img align="center" alt="Electron.js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" />
-  </a>
-
+  
   <a href="https://nodejs.org/">
     <img align="center" alt="Node.js" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
   </a>
-
-  <a href="https://jestjs.io/">
-   <img align="center" alt="Jest" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
+  
+  <a href="https://nestjs.com/">
+    <img align="center" alt="NestJS" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" />
   </a>
-
-  <a href="https://www.ruby-lang.org/">
-   <img align="center" alt="Ruby" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+  
+  <a href="https://tailwindcss.com/">
+    <img align="center" alt="Tailwind CSS" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
   </a>
-
-  <a href="https://rubyonrails.org/">
-   <img align="center" alt="Rails" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg" />
+  
+  <a href="https://angular.io/">
+    <img align="center" alt="Angular" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+  </a>
+  
+  <a href="https://www.php.net/">
+    <img align="center" alt="PHP" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
   </a>
 </p>
